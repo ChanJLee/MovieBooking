@@ -12,5 +12,6 @@ import java.io.IOException;
 public class MainServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doGet(req, resp);
+        System.out.print("haha");
     }
 }
